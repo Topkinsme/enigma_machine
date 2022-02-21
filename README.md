@@ -3,8 +3,9 @@ A python package that allows a user to encrypt a message, simulating an enigma m
 
 Examples
 ```py
-from enig import Enigma_Machine 
-mac=Enigma_Machine()
+import enig
+from enig import em
+mac=em.Enigma_Machine()
 print(mac.rotor1,mac.rotor2,mac.rotor3)
 >>> 1 1 1
 mac.random_rotors()
