@@ -26,5 +26,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
     
-    download_url="https://github.com/Topkinsme/enigma_machine/archive/refs/tags/0.0.1.tar.gz",
+    download_url="https://github.com/Topkinsme/enigma_machine/archive/refs/tags/0.0.2.tar.gz",
 )
