@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='enig',                         
     packages=['enig'],                     
-    version='0.0.1',                               
+    version='0.0.2',                               
     license='GNU GPL v3'
     description='Testing installation of Package',
     long_description=long_description,
