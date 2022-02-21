@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='enig',                         
     packages=['enig'],                     
-    version='0.0.10',                               
+    version='0.1.0',                               
     license='GNU GPL v3',
     description='Testing installation of Package',
     long_description=long_description,
@@ -26,5 +26,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
     
-    download_url="https://github.com/Topkinsme/enigma_machine/archive/refs/tags/0.0.10.tar.gz",
+    download_url="https://github.com/Topkinsme/enigma_machine/archive/refs/tags/0.1.0.tar.gz",
 )
