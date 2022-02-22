@@ -376,9 +376,9 @@ class Enigma_Machine():
         '''
         try:
             if self.rotor1>26 or self.rotor2>26 or self.rotor3>26:
-                random_rotors()
+                self.random_rotors()
         except:
-            random_rotors()
+            self.random_rotors()
         try:
             output=self.enigma(input_,self.rotor1,self.rotor2,self.rotor3)
         except:
